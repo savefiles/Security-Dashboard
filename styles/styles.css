@@ -1,0 +1,91 @@
+/* .myheader grabbed from Bootstrap's jumbotron example - https://getbootstrap.com/docs/4.0/examples/jumbotron/ */
+/* Top of the page */
+.myheader{
+    background-color: #e9ecef;
+    padding: 1rem 1rem;
+    margin-bottom: 1rem;
+}
+#searchbar {
+    width: auto;
+    margin:0px;
+}
+#searchtype {
+    width: auto;
+}
+#searchgroup {
+    width: 100%;
+    margin: 0px;
+}
+#searchbutton {
+    position: absolute;
+    /* Height calculation is the same as search bar */
+    height: calc(1.5em + .75rem + 2px);
+    right: 0px;
+    top: 2px;
+    bottom: 2px;
+    z-index: 10;
+}
+
+input.form-control{
+    display: inline-block;
+    width: 20rem;
+    margin-right:1rem;
+}
+.search-row{
+    margin-bottom:1rem;
+}
+
+.footnote {
+    font-size: small;
+}
+
+#graph-cve-monthly {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+#graph-header {
+    font-family: 'Montserrat', sans-serif;
+}
+
+#observablehq-chart-ed33c0fb {
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 400px;
+}
+#reset-button{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    z-index: 10;
+}
+
+/* Footer CSS https://css-tricks.com/couple-takes-sticky-footer/ */
+html, body, #app {
+    height: 100%;
+}
+#container {
+    min-height: 100%;
+}
+#content {
+    padding-bottom: 30px;
+}
+footer {
+    height: 30px;
+    margin-top: -30px;
+}
+footer>p{
+    text-align: center;
+}
+
+
+/* CSS rule for bottom bar in modal UNUSED. */
+#modal-bottom-navigation {
+    display: grid;
+    grid-template-rows: 1fr repeat(7, [col] 20px) 1fr;
+}
+
+.modal-bottom-element {
+    display: grid;
+}
